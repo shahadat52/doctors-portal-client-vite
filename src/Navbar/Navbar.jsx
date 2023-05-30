@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
-import logo from '../assets/images/logo.png'
+
+import { Link } from 'react-router-dom';
+import logo from '../assets/images/vite.png'
 
 const menuItems = <>
     <li><Link to="/">Home</Link></li>
@@ -11,11 +12,9 @@ const menuItems = <>
 </>
 
 const Navbar = () => {
-
-
     return (
         <div>
-            <div className="navbar flex  justify-between mb-14">
+            <div className="navbar flex justify-between mb-14">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">

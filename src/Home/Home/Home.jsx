@@ -1,6 +1,7 @@
 
 import chair from '../../assets/images/chair.png'
 import backgroundImage from '../../assets/images/bg.png'
+import Spinner from '../../Utilittes/Spinner';
 const Home = () => {
     return (
         <div className="hero pb-[223px]  " style={{
@@ -17,6 +18,7 @@ const Home = () => {
                     <button className='btn btn-primary'>Get Started</button>
                 </div>
             </div>
+            <Spinner/>
         </div>
     );
 };
